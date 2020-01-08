@@ -1,0 +1,52 @@
+1. What is the number of leading zeros currently used in the hash for Bitcoin?
+17 zeroes
+Note: The actual hash difficulty is not about the leading zeros. 
+It is about finding a hash less than the hash target set by the network. 
+However, this is approximately about finding a hash having a specific number of leading zeros.
+
+2. What is the desired time required to find a Hash in Bitcoin?
+
+3. Does a change in a Private Key affect the blockchain as in the case of the public key?
+A private key cannot be changed. 
+
+4. Is a Public Key uniquely linked to a private key?
+It is. 
+
+5. How many miners are needed to run the 51% attack?
+
+6. What are some possible attacks on a blockchain?
+Peer-to-Peer Network-based Attacks
+- Eclipse attack
+- Sybil attack
+Consensus Mechanism and Mining-based Attacks
+- Selfish mining attack
+- Mining malware
+- 51% attack
+- Timejack attack
+- Finney attack
+- Race attack
+
+7. Are there major bitcoin servers?
+Bitcoin has no central issuer; instead, the peer-to-peer network regulates Bitcoins, 
+transactions and issuance according to consensus in network software.
+
+8. Distribution of bitcoin owners?
+The richest 30% of all Bitcoin owners own 98.3% of all Bitcoins. 
+(https://medium.com/@BambouClub/are-you-in-the-bitcoin-1-a-new-model-of-the-distribution-of-bitcoin-wealth-6adb0d4a6a95)
+
+9. What is a Merkle tree?
+In cryptography and computer science, a hash tree or Merkle tree is a tree in which every leaf node is labelled with 
+the hash of a data block, and every non-leaf node is labelled with the cryptographic hash of the labels of its child nodes. 
+
+10. Entropy 
+In cryptography, entropy is a measure of true randomness. 
+An n-bit number chosen uniformly at random with a perfect random number generator has n bits of entropy, 
+and entropy of other things can be computed in comparison to this case. 
+For example, 4 words chosen uniformly at random from a wordlist of 1024 words has 40 bits of entropy because 
+you can represent each word by 10 bits (2^10 = 1024) and stick the 4 groups of 10 bits together to get a 40-bit number 
+chosen uniformly at random. When dealing with things chosen uniformly at random, you can also compute the entropy by 
+calculating the base-2 logarithm of the total possible outcomes, eg. there are 6^20 possible outcomes when 
+rolling a 6-sided die 20 times and then writing down the results one after another (ie. not summing or reordering them), 
+so the result has log_2(6^20) ~= 51.7 bits of entropy. If the result is in any way biased (like the sum of dice rolls, 
+which is very much not uniformly distributed), then you can still calculate the entropy, but it's more difficult.
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   
